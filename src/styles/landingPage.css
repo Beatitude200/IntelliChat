@@ -1,0 +1,347 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400&display=swap');
+/* Responsiveness */
+
+
+@media(max-width:991px){
+
+    header {
+        padding-left: 2%;
+        padding-right: 2%;
+    }
+
+    header .navbar-brand .logo {
+        width: 60%;
+        display: inline-block;
+      }
+    
+    .navbar-toggler .tbtn {
+        font-size: 1.5rem;
+    }
+
+    .navbar-collapse .navbar-nav .nav-item .nav-link {
+        font-size: 1.5rem;
+        font-weight: 500;
+        margin-bottom: 1rem;
+    }
+
+    .btn {
+        margin-left: 2rem;
+        margin-bottom: 2rem;
+    }
+    .navbar-nav {
+        padding: left 20px !important;
+        padding-right: 20px !important;
+        
+        
+    }
+    
+}
+
+@media (max-width:768px){
+
+    header {
+        padding-left: 1%;
+        padding-right: 1%;
+    }
+ 
+
+    /* Responsive Styles for Mobile View */
+  
+        /* Center the content vertically */
+        .con {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            
+            background-color: #000000EB;
+            padding: 0px 0px;
+        }
+        
+        /* Style the h1 elements */
+        h1 {
+            font-weight: bold;
+            font-size: 18px;
+            line-height: 16px;
+            text-align: center;
+            font-family: Arial, Helvetica, sans-serif;
+            color: white;
+        }
+        
+
+
+        /* Style the paragraph */
+        .center-p {
+            color: #898484;
+            font-family: 'Times New Roman', Times, serif;
+            text-align: center;
+            padding: 10px;
+            font-size: 11px;
+            line-height: 15px;
+        }
+        
+        /* Style the "Get Started" text */
+        .getStarted {
+            font-weight: bold;
+            margin-top: 20px;
+            font-size: 16px;
+            text-align: center;
+            color: #fff;
+        }
+        
+        /* Style the button */
+        .button-free {
+            color: #fff;
+            border: none;
+            padding: 10px 20px;
+            font-size: 16px;
+            font-weight: bold;
+            cursor: pointer;
+            text-align: center;
+            justify-content: center;
+        }
+        
+        .bb {
+            color: white;
+            background-color: #007bff;
+            border-color: white;
+            border-radius: 50px;
+            border: none;
+            padding: 16px 32px; /* Increase the padding to increase button size */
+            font-size: 20px; /* Increase the font size to increase button size */
+            font-weight: bold;
+            cursor: pointer;
+            text-align: center;
+            display: inline-block;
+            text-decoration: none;
+            margin: 0px;
+        }
+        
+        .hero-blur-bg-holder {
+            text-align: center;
+            background-color: #000000EB;
+        }
+    }
+
+
+
+
+
+
+
+
+
+   
+    /* Center the content horizontally and vertically */
+    .con {
+        display: block;
+        height: 100vh;
+        width: 100%;
+        background-color: #000000EB;
+        margin: 0px 0px 0px 0px;
+        padding: 100px 0px 0px 0px;
+    }
+
+    /* Style the h1 elements */
+    h1 {
+        font-weight: bold;
+        justify-content: center;
+        text-align: center;
+        line-height: 68px;
+        font-size: 62px;
+        font-family: Arial, Helvetica, sans-serif;
+        color: white;
+    }
+
+    /* Style the paragraph */
+    .center-p{
+        color: #898484;
+        font-family:'Times New Roman', Times, serif;
+        text-align: center;
+
+        font-size: 15px;
+        line-height: 18px;
+    }
+
+
+    /* Style the "Get Started" text */
+    .getStarted {
+        font-weight: bold;
+        margin-top: 20px;
+        font-size: 18px;
+        text-align: center;
+        font-size: 14px;
+        color: #fff;
+    }
+
+    /* Style the button */
+    .button-free {
+        color: #fff;
+        border: none;
+        padding: 10px 20px;
+        font-size: 16px;
+        font-weight: bold;
+        cursor: pointer;
+        text-align: center;
+        justify-content: center;
+    }
+
+    .bb{
+        color: white;
+        background-color: #007bff;
+        border-color: white;
+        border-radius: 50px;
+        border: none;
+        padding: 10px 20px; 
+        font-size: 20px; 
+        font-weight: 600px;
+        cursor: pointer;
+        text-align: center;
+        display: inline-block;
+        text-decoration: none;
+        margin: 50px;
+    }
+
+    .hero-blur-bg-holder{
+        padding: 20px ;
+        text-align: center;
+        background-color: #000000EB;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    .fun-fact-holder{
+        background-color: #000000EB;
+    }
+
+    .fun-fact-container{
+        background-color: #3b3939;
+        border: 10px;
+        border-color: white;
+        border-radius: 30px 30px 30px 30px;
+        padding: 20px 20px 20px 20px;
+    }
+
+    .slider-holder .w-slider {
+        display: flex;
+    }
+
+    .slider-holder .w-slider .w-slider-mask .slide-w-slide {
+        flex-wrap: wrap;
+        flex: 1 1 40rem;
+    } 
+
+    .white-text{
+        color: #000000;
+        font-weight: bold;
+    }
+
+
+    .fun-fact-title-holder{
+        display: inline-block;
+    }
+
+   
+/* twitter and result */
+/* 
+    .fun-fact-title-holder {
+        display: flex;
+        align-items: center;
+        padding: 10px;
+        color: white;
+    } */
+/* 
+    .fun-fact-title-holder > div {
+        display: flex;
+        align-items: center;
+        margin-right: 10px;
+    } */
+/* 
+    .fun-fact-icon-holder {
+        background-color: white;
+        width: 32px;
+        height: 32px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-right: 5px;
+    } */
+
+    .fun-fact-icon-holder img {
+        width: 100%;
+        height: auto;
+    }
+
+    .fun-fact-social-media-icon-holder {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-left: auto;
+    }
+
+    .fun-fact-social-media-icon-holder img {
+        width: 100%;
+        height: auto;
+    } 
+
+
+
+    
+
+/* the cards */
+    
+    .slide-w-slide{
+        background-color: #fff;
+        
+        /* margin: 10px 10px 10px 10px; */
+        /* display: inline-block; */
+        /* padding: 20px 20px 20px 20px; */
+        /* border-radius: 20px;
+        box-shadow: rgba(0, 0, 0,.1);
+        position: relative;
+        flex: 0 0 auto;
+        padding: 1rem;
+        /* margin: 1rem;* */
+    } 
+
+
+     /* .w-slider-mask{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+    } */
+/* 
+    .slider-holder .w-slider-mask .slide-w-slide {
+        position: relative;
+        background: #fff;
+        flex: 1 1 50rem;
+        padding: 1rem;
+        margin: 1rem;
+        
+     } */
+
+     .w-slider-mask {
+        display: flex;
+        flex-wrap: nowrap;
+        justify-content: center;
+        align-items: center;
+    
+    }
+ 
+
+
+
+
+
+    
