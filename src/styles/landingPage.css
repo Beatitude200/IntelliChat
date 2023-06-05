@@ -211,137 +211,44 @@
 
 
 
+    
 
+  
+/*  Frequency questions */
+ .container-wrapper{
+    background-color: #000000EB;
+    padding: 20px 100px 20px 100px;
+ }
 
-
-
-
-
-
-
-
-    .fun-fact-holder{
-        background-color: #000000EB;
-    }
-
-    .fun-fact-container{
-        background-color: #3b3939;
-        border: 10px;
-        border-color: white;
-        border-radius: 30px 30px 30px 30px;
-        padding: 20px 20px 20px 20px;
-    }
-
-    .slider-holder .w-slider {
-        display: flex;
-    }
-
-    .slider-holder .w-slider .w-slider-mask .slide-w-slide {
-        flex-wrap: wrap;
-        flex: 1 1 40rem;
-    } 
-
-    .white-text{
-        color: #000000;
-        font-weight: bold;
-    }
-
-
-    .fun-fact-title-holder{
-        display: inline-block;
-    }
-
+ .MuiPaper-root{
    
-/* twitter and result */
-/* 
-    .fun-fact-title-holder {
-        display: flex;
-        align-items: center;
-        padding: 10px;
-        color: white;
-    } */
-/* 
-    .fun-fact-title-holder > div {
-        display: flex;
-        align-items: center;
-        margin-right: 10px;
-    } */
-/* 
-    .fun-fact-icon-holder {
-        background-color: white;
-        width: 32px;
-        height: 32px;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        margin-right: 5px;
-    } */
-
-    .fun-fact-icon-holder img {
-        width: 100%;
-        height: auto;
-    }
-
-    .fun-fact-social-media-icon-holder {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        margin-left: auto;
-    }
-
-    .fun-fact-social-media-icon-holder img {
-        width: 100%;
-        height: auto;
-    } 
-
-
-
+    text-align: center;
+    justify-content: center;
     
+ }
 
-/* the cards */
+ .rest{
+    background-color: #fff;
+    padding: 0px 0px 0px 0px;
+    border-radius: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+ }
+
+ .MuiAccordionSummary-content{
+    background-color: #ffefe0;
+    padding: 20px 0px 20px 0px;
+    border-radius: 10px;
+    font-size: 30px;
+    color: #000000EB;
+    font-weight: bold;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     
-    .slide-w-slide{
-        background-color: #fff;
-        
-        /* margin: 10px 10px 10px 10px; */
-        /* display: inline-block; */
-        /* padding: 20px 20px 20px 20px; */
-        /* border-radius: 20px;
-        box-shadow: rgba(0, 0, 0,.1);
-        position: relative;
-        flex: 0 0 auto;
-        padding: 1rem;
-        /* margin: 1rem;* */
-    } 
+ }
 
+ .MuiCollapse-root{
+   font-size: 16px;
+   color: black;
+   margin: 20px 20px 20px 20px;
+ }
 
-     /* .w-slider-mask{
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        flex-wrap: wrap;
-    } */
-/* 
-    .slider-holder .w-slider-mask .slide-w-slide {
-        position: relative;
-        background: #fff;
-        flex: 1 1 50rem;
-        padding: 1rem;
-        margin: 1rem;
-        
-     } */
-
-     .w-slider-mask {
-        display: flex;
-        flex-wrap: nowrap;
-        justify-content: center;
-        align-items: center;
-    
-    }
- 
-
-
-
-
-
-    
+/*  Frequency questions */
