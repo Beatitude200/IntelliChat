@@ -1,0 +1,41 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  /* Create four equal columns that floats next to each other */
+ .btn-success{
+  width: 100%;
+ }
+  
+ .hea {
+  white-space: pre-wrap;
+    overflow: visible;
+    font-family: var(--font_default);
+    font-size: 36px;
+    font-weight: bold;
+    color: rgba(0,0,0,1);
+    line-height: 1.4;
+    border-radius: 0px;
+    -moz-border-radius: 0px;
+    opacity: 1;
+    z-index: 5;
+    text-align: center;
+    justify-content: center;
+
+ }
+
+ 
+ .btn-primary{
+  width: 300px;
+  text-align: center;
+  justify-content: center;
+  line-height: 1.4;
+ }
+ .dashboard{
+  
+  text-align: center;
+  justify-content: center;
+  margin: 50px 0px 100px 0px;
+ }
+  /* Clear floats after the columns */
+ 
