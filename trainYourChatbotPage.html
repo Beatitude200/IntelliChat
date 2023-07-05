@@ -1,70 +1,134 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Sidebar 5</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap"
-      rel="stylesheet"
-    />
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Sidebar 5</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,600&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap" rel="stylesheet" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous" /> 
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+  <link rel="stylesheet" href="/src/styles/sidebar.css">
+  <link rel="stylesheet" href="/src/styles/trainYourChatbotPage.css" />
   
-    <link rel="stylesheet" href="/src/styles/trainYourChatbotPage.css" />
-   
-  </head>
- 
-  <body>
-    <div class="container">
-      <aside class="sidebar">
-        <div class="sidebar-inner">
-          <header class="sidebar-header">
-            <button type="button" class="sidebar-burger" onclick="toggleSidebar()"></button>
-            <img src="/src/assests/blocklord-logo.png" class="sidebar-logo" />
-          </header>
-          <nav class="sidebar-nav">
-            <button type="button">
-              <img src="/src/assests/icon-home.svg" />
-              <span>Home</span>
-            </button>
-            <button type="button">
-              <img src="/src/assests/icon-settings.svg" />
-              <span style="animation-delay: 0.1s">Train Chatbot</span>
-            </button>
-            <button type="button">
-              <img src="/src/assests/icon-levels.svg" />
-              <span style="animation-delay: 0.2s">Your Chatbot</span>
-            </button>
-            <button type="button">
-              <img src="/src/assests/icon-accounts.svg" />
-              <span style="animation-delay: 0.3s">Accounts</span>
-            </button>
-          </nav>
-          <footer class="sidebar-footer">
-            <button type="button">
-              <img src="/src/assests/icon-lock.svg" />
-              <span>Logout</span>
-            </button>
-          </footer>
-        </div>
-      </aside>
+</head>
 
-      <div class="chat-container">
-        <div id="app">
-          <div id="chat_container"></div>
-    
-          <form>
-            <textarea name="prompt" rows="1" cols="1" placeholder="Ask codex..."></textarea>
-            <button type="submit"><img src="/src/assests/send.svg" alt="send" /></button>
-          </form>
-        </div>
+<body>
+  <div class="container">
+    <aside class="sidebar">
+      <div class="sidebar-inner">
+        <header class="sidebar-header">
+          <button type="button" class="sidebar-burger" onclick="toggleSidebar()"></button>
+          <img src="/src/assests/blocklord-logo.png" class="sidebar-logo" />
+        </header>
+        <nav class="sidebar-nav">
+        <a href="/index.html"> <button type="button">
+            <img src="/src/assests/icon-home.svg" />
+            <span>Home</span>
+          </button></a> 
+          <a href="/trainYourChatbotPage.html"><button type="button">
+            <img src="/src/assests/icon-settings.svg" />
+            <span style="animation-delay: 0.1s">Train Chatbot</span>
+          </button></a>
+          <a href="/yourChatbot.html"><button type="button">
+            <img src="/src/assests/icon-levels.svg" />
+            <span style="animation-delay: 0.2s">Your Chatbot</span>
+          </button></a>
+          <a href="/yourAccountPage.html">
+          <button type="button">
+            <img src="/src/assests/icon-accounts.svg" />
+            <span style="animation-delay: 0.3s">Accounts</span>
+          </button></a>
+        </nav>
+        <footer class="sidebar-footer">
+          <button type="button">
+            <img src="/src/assests/icon-lock.svg" />
+            <span>Logout</span>
+          </button>
+        </footer>
       </div>
-    </div>
+    </aside>
 
-    <script type="text/javascript">
-      const toggleSidebar = () => document.body.classList.toggle("open");
-    </script>
-  </body>
+   
+    
+    <div class="row m-0 p-4 justify-content-center w-100">
+    <div class="col-md-5 p-2">
+      <div class="card p-2 w-100">
+        <a class="link" href="#" onclick="showInputFile()">
+          <h3 class="text-primar text-center">Train with text</h3>
+          <div class="w-100 text-center">
+            Upload text file / data to train my chatbot <span class="text-success"></span>
+          </div>
+          <div class="w-100 d-flex justify-content-center p-3">
+              <!-- <div class="btn btn-success px-1" >Subscribe</div> -->
+          </div>         
+        </a>
+      </div>
+  </div>
+</div>
+
+
+    <div class="row m-0 p-4 justify-content-center w-100">
+    <div class="col-md-5 p-2">
+      <div class="card p-2 w-100">
+        <a class="link" href="#" onclick="showInputFile()">
+          <h3 class="text-primar text-center">Train with file (1/mo)</h3>
+          <div class="w-100 text-center">
+            Upload a PDF file to train my chatbot <span class="text-success"></span>
+          </div>
+          <div class="w-100 d-flex justify-content-center p-3">
+              <!-- <div class="btn btn-success px-1" >Subscribe</div> -->
+          </div>   
+        </a>      
+      </div>
+  </div>
+</div>
+
+
+<div class="row m-0 p-4 justify-content-center w-100">
+  <div class="col-md-5 p-2">
+    <div class="card p-2 w-100">
+      <a class="link" href="#" onclick="showInputFile()">
+        <h3 class="text-primar text-center">Train with website (/mo)</h3>
+        <div class="w-100 text-center">
+          Scrape a website to train your chatbot <span class="text-success"></span>
+        </div>
+        <div class="w-100 d-flex justify-content-center p-3">
+            <!-- <div class="btn btn-success px-1" >Subscribe</div> -->
+        </div>       
+      </a>
+    </div>
+  </div>
+</div>
+
+<div class="file" id="file" style="display: none;">
+<div class="row m-0 p-4 justify-content-center w-100">
+  <div class="col-md-5 p-2">
+    <div class="card p-2 w-100">
+        <h3 class="text-primar text-center"></h3>
+        <div class="file" id="file">
+          <input type="file" id="fileInput" />
+          <button class="submitbtn" onclick="submitFile()">Submit</button>
+        </div>
+        <div class="w-100 d-flex justify-content-center p-3">
+            <!-- <div class="btn btn-success px-1" >Subscribe</div> -->
+        </div>      
+    </div>
+  </div>
+</div>
+</div>
+
+
+<script src="/src/script/trainYourChatbotPage.js"></script>
+
+
+  <script type="text/javascript">
+    const toggleSidebar = () => document.body.classList.toggle("open");
+  </script>
+</body>
 </html>
